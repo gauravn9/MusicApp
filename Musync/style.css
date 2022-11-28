@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+}
+
+
+#leftbar{
+    /* float: left; */
+    position: fixed;
+    left: 0;
+    width:200px;
+    height:100vh;
+    background-color:#2f0e30;
+    margin: auto;
+    padding-top: 33vh;
+    z-index: 1;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #c881ad;
+}
+fa-icon{
+    padding: 0 10px;
+}
+
+p{
+    padding-left: 30px;
+    opacity: 70%;
+}
+
+p:hover{
+    padding-left: 40px;
+    opacity: 100%;
+    font-size: 1.2rem;
+}
+
+
+#topbanner{
+    width: 100%;
+    position: absolute;
+    height: 35%;
+}
+h1{
+    position: absolute;
+    top: 15%;
+    color: white;
+    left: 300px;
+    font-size: 8rem;
+}
+
+h2{
+    color: #afafaf;
+    font-size: 4.3rem;
+    padding-bottom: 50px;
+    /* position: absolute; */
+    margin-top: 0;
+    text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h3{
+    font-size: 3rem;
+    color: #cccccc;
+}
+
+
+
+#headings{
+    position: absolute;
+    top: 40%;
+    left: 300px;
+}
+
+#albums{
+    position: relative;
+    top:80%;
+    font-size: 2rem;
+}
+
+.albumimg{
+    width: 200px;
+    border-radius: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.albumcard{
+    text-align: center;
+    padding: 50px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
